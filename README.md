@@ -1,5 +1,18 @@
-<!DOCTYPE html>
-<html lang="es">
+# Optimización orden HEAD
+
+Cómo ordenar las etiquetas HTML dentro de la sección <head> para obtener el máximo rendimiento en tu proyecto o sitio web.
+
+## Construido con
+
+**HTML:** Estructura HEAD
+
+## Descripción
+
+El <head> es la parte más grande que bloquea el renderizado de una página web. Es un elemento al que los desarrolladores front-end le prestamos menos atención, pero es realmente importante y necesario conocer cómo cargar nuestros estilos, fuentes o scripts porque afectan directamente a la experiencia de usuario. ¡Y todo va en el <head>!
+
+## Código
+
+```html
 <head>
     <meta charset="UTF-8"> <!--Codificación de caracteres usada-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Área disponible en la pantalla del navegador-->
@@ -16,7 +29,8 @@
     <meta name="description" lang="es" content="..." />
     <link rel="shortcut icon" type="image/png" href="..."/>
 </head>
-<body>
-    
-</body>
-</html>
+```
+
+## Autor
+
+[@Juanjo-CGB](https://github.com/Juanjo-CGB)
