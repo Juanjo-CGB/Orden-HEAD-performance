@@ -1,6 +1,6 @@
 # Optimización orden HEAD
 
-Cómo ordenar las etiquetas HTML dentro de la sección <head> para obtener el máximo rendimiento en tu proyecto o sitio web.
+Cómo ordenar las etiquetas HTML dentro de la sección `<head>` para obtener el máximo rendimiento en tu proyecto o sitio web.
 
 ## Construido con
 
@@ -8,7 +8,7 @@ Cómo ordenar las etiquetas HTML dentro de la sección <head> para obtener el m�
 
 ## Descripción
 
-El <head> es la parte más grande que bloquea el renderizado de una página web. Es un elemento al que los desarrolladores front-end le prestamos menos atención, pero es realmente importante y necesario conocer cómo cargar nuestros estilos, fuentes o scripts porque afectan directamente a la experiencia de usuario. ¡Y todo va en el <head>!
+El `<head>` es la parte más grande que bloquea el renderizado de una página web. Es un elemento al que los desarrolladores front-end le prestamos menos atención, pero es realmente importante y necesario conocer cómo cargar nuestros estilos, fuentes o scripts porque afectan directamente a la experiencia de usuario. ¡Y todo va en el `<head>`!
 
 ## Código
 
@@ -20,7 +20,7 @@ El <head> es la parte más grande que bloquea el renderizado de una página web.
     <link rel="preconnect" href="..."> <!--Peticiones a las DNS-->
     <script async src="..."></script> <!--Scripts que manipulan o interaccionan con el DOM antes de DOMContentLoaded y/o que no tienen dependencias con otros scripts-->
     <!--EVITAR-->
-    <!--<style>@import url("css/layout.css");</style> --- CSS que incluya @import-->
+    <!--<style>@import url("...");</style> --- CSS que incluya @import-->
     <!--<script></script> --- JS Síncrono-->
     <link rel="stylesheet" href="..."> <!--CSS Síncrono-->
     <link rel="preload" href="..."> <!--Precarga de elementos-->
